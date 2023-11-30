@@ -1,0 +1,24 @@
+{
+    "name": "jpag0/app-reservas-paintball",
+    "description": "proyecto APP reservas para el campo de paintball",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "Jpag0\\AppReservasPaintball\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "JuanPablo-A",
+            "email": "jpablo.arango1@udea.edu.co"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
